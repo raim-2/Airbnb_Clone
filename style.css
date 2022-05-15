@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+}
+
+.top-banner {
+    border-bottom : 1px solid rgb(226, 226, 226);
+    background-color: #f7f7f7;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.banner-name { 
+    font-size: 20px;
+}
+
+.banner-right-items {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.banner-video {
+    width: 53px;
+    height: 30px;
+}
+
+.right-item {
+    padding: 4px 16px;
+}
+
+.video {
+    border-right : 1px solid rgb(226, 226, 226);
+}
+
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    font-size: 14px;
+    
+}
+.logo {
+    width: 118px;
+    height: 50px;
+}
+
+.top-search-bar {
+    background-color: white;
+    width: 360px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3em;
+    box-shadow: 1px 1px 5px rgb(226, 226, 226);
+    padding-left: 5px;
+}
+
+.top-nav-right {
+    display: flex;
+    align-items: center;
+}
+.nav-button {
+    margin: 0px 20px;
+}
+
+.bar-items {
+    padding: 0 16px;
+    color: black;
+}
+
+.place {
+    font-weight: bold;
+}
+
+.date {
+    font-weight: bold;
+    border-left: 1px solid rgb(226, 226, 226);
+    border-right: 1px solid rgb(226,226,226);
+    
+}
+.guest {
+    color: grey;
+    
+}
+.search-icon {
+    background-color: #ff385c;
+    width: 12px;
+    height: 12px;
+    padding: 10px;
+    margin: 7px 7px 7px 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+.host {
+    font-weight: bold;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+    
+}
+
+.user {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
