@@ -89,3 +89,21 @@ section {
 .right-side {
   width: 760px;
 }
+
+.host-name {
+  width: 140px;
+  height: 56px;
+  margin-bottom: 10px;
+}
+
+.host-detail {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.host-info {
+  position: relative;
+  bottom: 160px;
+  left: 60px;
+}
