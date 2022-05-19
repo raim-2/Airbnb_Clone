@@ -1,5 +1,7 @@
 body {
   margin: 0px;
+  max-width: 1760px;
+  text-size-adjust: 100%;
 }
 
 a {
@@ -89,7 +91,6 @@ header {
   padding-right: 80px;
   border-bottom: 1px solid rgb(226, 226, 226);
   font-size: 14px;
-  position: fixed;
 }
 
 .top-left {
@@ -208,4 +209,59 @@ header {
   width: 28px;
   height: 28px;
   margin-left: 15px;
+}
+
+footer {
+  height: 20px;
+  border-top: 1px solid rgb(226, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 80px 14px 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  color: rgb(34, 34, 34);
+}
+
+footer a {
+  color: rgb(34, 34, 34);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-leftside {
+  word-spacing: -0.7px;
+  letter-spacing: 0.4px;
+}
+
+footer nav button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  height: 18.4px;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(72, 72, 72);
+  padding: 0px;
+  margin-right: 24px;
+}
+
+.footer-rightside {
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+}
+
+.won,
+.fa-globe {
+  margin-right: 8px;
+}
+
+.fa-angle-up {
+  margin-left: 8px;
 }

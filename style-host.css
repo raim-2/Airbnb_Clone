@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  height: 1000vh;
+  height: 100vh;
 }
 
 section {
@@ -71,7 +71,7 @@ section {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 60px;
+  bottom: 25%;
   left: auto;
   width: 32px;
   height: 32px;
