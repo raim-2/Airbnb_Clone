@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   max-width: 1760px;
+  height: 200vh;
   text-size-adjust: 100%;
 }
 
@@ -10,14 +11,11 @@ a {
 }
 
 .top-banner {
+  word-spacing: 20%;
   border-bottom: 1px solid rgb(226, 226, 226);
   background-color: #f7f7f7;
   height: 64px;
-  max-width: 1760px;
   font-weight: bold;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .banner-name {
@@ -34,7 +32,7 @@ a {
   align-items: center;
   justify-content: flex-end;
   position: relative;
-  top: -20px;
+  top: -17px;
   left: -62px;
 }
 
@@ -166,6 +164,7 @@ header {
   font-weight: bold;
   padding: 12px;
   border-radius: 20px;
+  word-break: keep-all;
 }
 
 .host:hover {
@@ -211,9 +210,90 @@ header {
   margin-left: 15px;
 }
 
+.map {
+  width: 151px;
+  height: 48px;
+  background-color: black;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  position: fixed;
+  bottom: 12%;
+  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 10s ease-in-out;
+}
+
+.map:hover {
+  transform: scale(20%);
+}
+
+.fa-map {
+  margin-left: 8px;
+}
+
+nav img {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  padding-bottom: 7px;
+  opacity: 0.7;
+  transition: opacity 15s ease-in-out;
+}
+
+.first-li {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.first-li:hover {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.first-li li > img {
+  opacity: 1;
+}
+
+nav img:hover {
+  opacity: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  /* margin: 0px; */
+}
+
+nav ul div {
+  padding: 4px 0px 14px 0px;
+  margin-top: 12px;
+}
+
+nav ul div:hover {
+  border-bottom: 3px solid rgb(208, 208, 208);
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(113, 113, 113);
+}
+
+li:hover {
+  color: black;
+}
+
 footer {
   height: 20px;
   border-top: 1px solid rgb(226, 226, 226);
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -255,6 +335,8 @@ footer nav button {
   font-weight: 600;
   cursor: pointer;
   display: flex;
+  word-break: keep-all;
+  flex-wrap: nowrap;
 }
 
 .won,
